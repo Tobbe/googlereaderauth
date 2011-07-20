@@ -1,0 +1,19 @@
+{
+  "author": "Tobbe Lundberg (www.tlundberg.com)",
+  "name": "googlereaderauth",
+  "description": "OAuth for Google Reader",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tobbe/googlereaderauth",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/google_reader_auth.js",
+  "engines": {
+    "node": "~v0.4.9"
+  },
+  "dependencies": {
+	"inireader": "0.2.0",
+	"oauth": "0.9.2"
+  },
+  "devDependencies": {}
+}
