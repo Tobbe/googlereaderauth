@@ -1,4 +1,4 @@
-var GoogleAuthorizer = require('./lib/google_reader_auth.js').GoogleAuthorizer;
+var GoogleAuthorizer = require('googlereaderauth').GoogleAuthorizer;
 var googleAuth = new GoogleAuthorizer();
 
 googleAuth.on('authDone', function(access_token, access_token_secret) {

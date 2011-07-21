@@ -51,12 +51,12 @@ Usage Example
 
 Make sure you install the inireader and oauth modules first (for example using
 npm). Also create a file in the same dir as the example called 'conf.ini' with
-one single line that says '[auth]' (for example by running 'echo "[auth]" >! 
+one single line that says '[auth]' (for example by running 'echo "[auth]" > 
 conf.ini' in your terminal).
 
 Now you're ready to run the following example:
 
-    var GoogleAuthorizer = require('./lib/google_reader_auth.js').GoogleAuthorizer;
+    var GoogleAuthorizer = require('googlereaderauth').GoogleAuthorizer;
     var googleAuth = new GoogleAuthorizer();
     
     googleAuth.on('authDone', function(access_token, access_token_secret) {
